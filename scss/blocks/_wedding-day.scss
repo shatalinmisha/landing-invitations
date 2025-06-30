@@ -57,29 +57,29 @@
   &__icon {
     position: absolute;
     bottom: 0;
-    right: 30%;
+    right: 17%;
 
     @media (min-width: 390px) {
-      right: 32%;
+      right: 20%;
     }
 
     @media (min-width: 450px) {
-      right: 35%;
+      right: 24%;
     }
 
     @media (min-width: 520px) {
-      right: 37%;
+      right: 27%;
     }
 
     @media (min-width: 610px) {
-      right: 39%;
+      right: 31%;
     }
 
-    @media (min-width: 760px) {
-      right: 41%;
+    @media (min-width: 700px) {
+      right: 34%;
     }
     @media (min-width: 820px) {
-      right: 44%;
+      right: 37%;
     }
   }
 

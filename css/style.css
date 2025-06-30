@@ -552,36 +552,36 @@ a {
 .wedding-day__icon {
   position: absolute;
   bottom: 0;
-  right: 30%;
+  right: 17%;
 }
 @media (min-width: 390px) {
   .wedding-day__icon {
-    right: 33%;
+    right: 20%;
   }
 }
 @media (min-width: 450px) {
   .wedding-day__icon {
-    right: 35%;
+    right: 24%;
   }
 }
 @media (min-width: 520px) {
   .wedding-day__icon {
-    right: 37%;
+    right: 27%;
   }
 }
 @media (min-width: 610px) {
   .wedding-day__icon {
-    right: 39%;
+    right: 31%;
   }
 }
-@media (min-width: 760px) {
+@media (min-width: 700px) {
   .wedding-day__icon {
-    right: 41%;
+    right: 34%;
   }
 }
 @media (min-width: 820px) {
   .wedding-day__icon {
-    right: 44%;
+    right: 37%;
   }
 }
 .wedding-day__direction {
