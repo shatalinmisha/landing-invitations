@@ -1,0 +1,69 @@
+.wishes {
+    margin: 0 0 50px;
+
+    &__title {
+    font-family: $ff-AllysonPro;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 40px;
+    text-align: center;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__inner {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    padding: 40px 20px;
+    background-color: $color-brown;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+        width: 85px;
+        height: 52px;
+        background-color: $color-ivory-white;
+        border-radius: 50%;
+    }
+  }
+
+  &__subtitle {
+    font-family: $ff-AllysonPro;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 20px;
+    color: $color-ivory-white;
+
+    &--flowers {
+      font-size: 50px;
+    }
+  }
+
+  &__text {
+    font-family: $ff-Kudry;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 5px;
+    margin: 0;
+    color: $color-ivory-white;
+
+    &--flowers {
+      padding: 0;
+    }
+  }
+}

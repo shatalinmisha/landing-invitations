@@ -1,0 +1,93 @@
+.wedding-day {
+  margin: 0 0 40px;
+
+  &__title {
+    font-family: $ff-AllysonPro;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 40px;
+    text-align: center;
+  }
+
+  &__text {
+    font-family: $ff-Kudry;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 20px;
+    padding: 0 15px;
+    color: $color-black-pearl;
+  }
+
+  &__calendar {
+    font-family: $ff-Kudry;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+  }
+
+  &__calenda-wrapper {
+    position: relative;
+    margin: 0 0 20px;
+  }
+
+  &__calenda-day {
+   margin: 0 auto;
+  }
+
+  &__days {
+    font-family: $ff-Kudry;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 7px;
+  }
+
+  &__datas {
+    font-family: $ff-UppEa;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 7px;
+    text-align: center;
+  }
+
+  &__icon {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+
+    @media (min-width: 390px) {
+      right: 33%;
+    }
+
+    @media (min-width: 450px) {
+      right: 35%;
+    }
+
+    @media (min-width: 520px) {
+      right: 37%;
+    }
+
+    @media (min-width: 610px) {
+      right: 39%;
+    }
+
+    @media (min-width: 760px) {
+      right: 41%;
+    }
+    @media (min-width: 820px) {
+      right: 44%;
+    }
+  }
+
+  &__direction {
+    display: block;
+    width: 1px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: $color-black-02;
+  }
+}

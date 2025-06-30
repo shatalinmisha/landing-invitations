@@ -1,0 +1,39 @@
+.questionnaire-form {
+  width: 100%;
+  min-width: 300px;
+  margin: 0 auto 20px;
+
+  &__group {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__group-name {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    color: $color-white;
+    margin: 0 0 15px;
+  }
+
+  &__button {
+    display: block;
+    width: 90%;
+    border: none;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 18px 20px;
+    background-color: $color-ivory-white;
+    color: $color-brown;
+    margin: 0 auto;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    border-radius: 2px;
+  }
+}

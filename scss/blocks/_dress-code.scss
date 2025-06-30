@@ -1,0 +1,61 @@
+.dress-code {
+  margin: 0 0 50px;
+
+  &__title {
+    font-family: $ff-AllysonPro;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 40px;
+    text-align: center;
+  }
+
+  &__text {
+    font-family: $ff-Kudry;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 20px;
+    padding: 0 5px;
+    color: $color-black-pearl;
+  }
+
+  &__color-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  &__color-1 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #d6ceb9;
+  }
+  &__color-2 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #999966;
+  }
+  &__color-3 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #646608;
+  }
+  &__color-4 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #493321;
+  }
+}

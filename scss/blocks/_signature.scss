@@ -1,0 +1,34 @@
+.signature {
+    margin: 0 0 70px;
+
+    &__inner {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      gap: 10px;
+    }
+
+    &__text {
+    font-family: $ff-Kudry;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 0 20px;
+    padding: 0 16px;
+    color: $color-black-pearl;
+  }
+
+  &__name {
+    font-family: $ff-AllysonPro;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 -7px;
+
+    &--woman {
+        text-align: right;
+    }
+  }
+}
